@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         val flag = findViewById<Switch>(R.id.switch1)
         val text1 = findViewById<TextView>(R.id.txt2)
         val text2 = findViewById<EditText>(R.id.PersonName2)
-        //nnnn
         flag.setOnCheckedChangeListener { buttonView, isChecked ->
             if (flag.isChecked) {
                 text1.setVisibility(View.INVISIBLE)
